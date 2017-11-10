@@ -10,34 +10,43 @@ section:nth-child(odd) {
     background-color: #f2f2f2;
     color: black;
 }
-header {
-    background-color: rgba(77,77,77,0.9);
+.background-pic{
+    background-image: image("img.jpg");
+    background-size: cover;
 }
-.header-name {
-    padding: 1rem 1rem;
+nav {
+    background-color: rgba(77,77,77,0.9);
+    top: 0;
+    position: sticky;
+}
+.nav-name a{
+    padding: 20px;
+    margin: auto;
     font-weight: bold;
     font-size: 26px;
-    line-height: 20px;
     text-transform: uppercase;
     text-align: left;
-}
-.header-name a{
+    text-decoration: none;
     color: #cc0000;
 }
+.nav-social a{
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    color: #cc0000;
+}
+.nav-nav a {
+    font-size: 18px;
 
-.header-social a{
-    color: #cc0000;
-}
-.header-nav a {
     margin: auto;
-    padding: 1rem 1rem;
+    padding: 20px;
     color: #cc0000;
+    text-decoration: none;
 }
-header a:hover,
-header a:focus{
-    color: white;
-}
-
 nav a:hover,
 nav a:focus {
     color: white;
