@@ -32,6 +32,7 @@
     <header>
         <div class="background-pic">
             <div class="container">
+                <img src="img2.jpg" class="under-pic"/>
                 <p>TODO /*obrázek*/</p>
             </div>
         </div>
@@ -48,11 +49,9 @@
         <section id="concerts">
             <div class="container">
                 <h1>Nadcházející koncerty</h1>
-                <p>
-                    Přijímáme nabídky hraní
-                </p>
+                <p>Přijímáme nabídky hraní</p>
                 <h1>Odehrané koncerty</h1>
-                <table>
+                <table id="concerts-table">
                     <thead>
                         <th>Pořadí</th>
                         <th>Místo</th>
@@ -192,7 +191,15 @@
     </main>
     <footer>
         <div class="container">
-            <p>Copyright &copy; Burning Arrows 2017</p>
+            <div class="arrow-up">
+                <a href="BurningArrows.html"><i class="up"></i></a>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.facebook.com/burningarrows/?fref=ts" class="fa fa-facebook" title="Facebook"></a>
+                <a href="https://www.youtube.com/channel/UC5FMA85ruFl9zVFP-R6U9pA" class="fa fa-youtube" title="Youtube"></a>
+                <a href="https://www.instagram.com/burning_arrows_band/" class="fa fa-instagram" title="Instagram"></a>
+            </div>
+            <p id="copyright-text">Copyright &copy; <a href="BurningArrows.html">Burning Arrows</a> 2017</p>
         </div>
     </footer>
 </body>

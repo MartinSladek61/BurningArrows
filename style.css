@@ -3,21 +3,32 @@ header .background > div {
     padding: 3rem 1rem;
     max-width:100%;
 }
-footer {
-    padding: 1rem 1rem;
-}
 section:nth-child(odd) {
     background-color: #f2f2f2;
     color: black;
 }
-.background-pic{
-    background-image: image("img.jpg");
+section{
+    text-align: center;
+}
+#concerts-table{
+    text-align: center;
+}
+.background-pic .under-pic{
+    background-position: center ;
     background-size: cover;
+}
+.background-pic .container {
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 auto;
 }
 nav {
     background-color: rgba(77,77,77,0.9);
     top: 0;
     position: sticky;
+    display: flex;
 }
 .nav-name a{
     padding: 20px;
@@ -41,8 +52,6 @@ nav {
 }
 .nav-nav a {
     font-size: 18px;
-
-    margin: auto;
     padding: 20px;
     color: #cc0000;
     text-decoration: none;
@@ -74,4 +83,42 @@ form button {
 form button:hover {
     cursor: pointer;
     background-color: #ccc;
+}
+footer {
+    padding: 5rem 5rem;
+    background-color: rgb(77, 77, 77);
+    color: white;
+    text-align: center;
+}
+i {
+    border: solid white;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    width: 2.7rem;
+    height: 2.7rem;
+}
+.up i:hover{
+    color: #cc0000;
+}
+.footer-social a{
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    margin: 0.4rem 0.5rem;
+    font-size: 25px;
+}
+.footer-social a:hover{
+    color: #cc0000;
+}
+#copyright-text a{
+    text-decoration: none;
+    color: white;
+}
+#copyright-text a:hover{
+    color: #cc0000;
 }
