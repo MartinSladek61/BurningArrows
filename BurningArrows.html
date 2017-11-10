@@ -3,26 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>Burning Arrows</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" type="text/css" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="name">
-            <h1>Burning Arrows</h1>
-            <a href="https://www.facebook.com/burningarrows/?fref=ts">FB</a>
-            <a href="https://www.youtube.com/channel/UC5FMA85ruFl9zVFP-R6U9pA">YT</a>
-            <a href="https://www.instagram.com/burning_arrows_band/">IG</a>
+        <div class="header-name">
+            <a href=BurningArrows.html title="Burning Arrows">Burning Arrows</a>
         </div>
-        <nav>
-            <a href="#about">O Nás</a>
-            <a href="#concerts">Koncerty</a>
-            <a href="#gallery">Galerie</a>
-            <a href="#booking">Booking</a>
-            <a href="#contact">Kontakt</a>
-        </nav>
+        <div class="header-social">
+            <a href="https://www.facebook.com/burningarrows/?fref=ts" title="BA Facebook">FB</a>
+            <a href="https://www.youtube.com/channel/UC5FMA85ruFl9zVFP-R6U9pA" title="BA Youtube">YT</a>
+            <a href="https://www.instagram.com/burning_arrows_band/" title="BA Instagram">IG</a>
+        </div>
+        <div class="header-nav">
+            <nav>
+                <a href="#about">O Nás</a>
+                <a href="#concerts">Koncerty</a>
+                <a href="#gallery">Galerie</a>
+                <a href="#booking">Booking</a>
+                <a href="#contact">Kontakt</a>
+            </nav>
+        </div>
     </header>
     <main>
         <section id="about">
-            <div>
+            <div class="container">
                 <h1>O Nás</h1>
                 <p>
                     Jsme mladá kapela původem z Prahy. Dohromady jsme se dali v roce 2015 a nastartovali tak lásku na celý život. Hrajeme melodický punk-rock, který rádi opepříme nějakou třešničkou na dortu. Držíme se hesla „nejlepší je již odzkoušené“, a proto máme klasickou rockovou sestavu dvou kytar, basy, bicích a zpěvu. Během naší „krátké“ existence jsme zahráli na mnoha akcích a v současné době se nám daří pravidelně vystupovat po boku dalších mladých kapel, ale i větších akcích, jako například Majáles v Českém Brodu a dalších letních festivalech.
@@ -30,61 +37,154 @@
             </div>
         </section>
         <section id="concerts">
-            <div>
+            <div class="container">
                 <h1>Nadcházející koncerty</h1>
                 <p>
                     Přijímáme nabídky hraní
                 </p>
                 <h1>Odehrané koncerty</h1>
-                <p>
-                    2016
-
-                    1. KC Zahrada // Koncert ZUŠ Jižní Město // w – NOLEM
-
-                    2. Rock Café // finále Majáles band contestu // w – HighLights, Limbo Planet
-
-                    3. Český Brod // Českobrodský Majáles 2016 // w – Vladimir 518, Vypsaná Fixa, Thom Artway, EŠUS, I Love You Honey Bunny, Light & Love
-
-                    4. Kuře v hodinkách // Speedyho narozeniny // w – The Conductors, 2Fall
-
-                    5. Klubovna // JenTak Fest  // w – Idle Minds, Forgot It’s Monday, Animo
-
-                    6. Chapeau Rouge //  Scream For Fame  // w – No Thing, Cross Station, Psí Kšíry
-
-                    2017
-
-                    7. Cross Club //  Molotov party – křest EP  // w – Molotov Party, Adventures
-
-                    8. STORM Club //  Omská Fest 2017  // w – Vomit Profit, MollGoth, Goldhorn
-
-                    9. Fatal music club //  Fatal Rock GIG  // w – Faraday, 3 a 5 minut, Švindl
-
-                    10. KC Zahrada // Koncert ZUŠ Jižní Město  // w – Rockband
-
-                    11. Rock Café // finále Majáles band contestu  // w – The Hills, Salsa Band, Zelenej Sen
-
-                    12. Fatal music club //  Akce Cihla  // w – Arrogant Twins, The Shifty Grifts, Bad Taste
-
-                    13. Chapeau Rouge //  Scream For Fame  // w – Zelenej Sen, Vypuštěné Koupaliště
-
-                    14. Rock Café //  United Islands of Prague // w – The Drain, Snap Call, Light Sugar Dreaming
-
-                    15. Horní Planá //  HP RockFest  // w – WilhemFreddie(NL), X-Core, Black Velvet Suicide
-                </p>
+                <table>
+                    <thead>
+                        <th>Pořadí</th>
+                        <th>Místo</th>
+                        <th>Událost</th>
+                        <th>Další interpreti</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>2016</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>1.</td>
+                            <td>KC Zahrada</td>
+                            <td>Koncert ZUŠ Jižní Město</td>
+                            <td>NOLEM</td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td>Rock Café Praha</td>
+                            <td>finále Majáles band contestu</td>
+                            <td>HighLights, Limbo Planet</td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td>Český Brod</td>
+                            <td>Českobrodský Majáles 2016</td>
+                            <td>Vladimir 518, Vypsaná Fixa, Thom Artway, EŠUS, I Love You Honey Bunny, Light & Love</td>
+                        </tr>
+                        <tr>
+                            <td>4.</td>
+                            <td>Kuře v hodinkách</td>
+                            <td>Speedyho narozeniny</td>
+                            <td>The Conductors, 2Fall</td>
+                        </tr>
+                        <tr>
+                            <td>5.</td>
+                            <td>Klubovna</td>
+                            <td>JenTak Fest</td>
+                            <td>Idle Minds, Forgot It’s Monday, Animo</td>
+                        </tr>
+                        <tr>
+                            <td>6.</td>
+                            <td>Chapeau Rouge</td>
+                            <td>Scream For Fame</td>
+                            <td>No Thing, Cross Station, Psí Kšíry</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>2017</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>7.</td>
+                            <td>Cross Club</td>
+                            <td>Molotov party – křest EP</td>
+                            <td>Molotov Party, Adventures</td>
+                        </tr>
+                        <tr>
+                            <td>8.</td>
+                            <td>STORM Club</td>
+                            <td>Omská Fest 2017</td>
+                            <td>Vomit Profit, MollGoth, Goldhorn</td>
+                        </tr>
+                        <tr>
+                            <td>9.</td>
+                            <td>Fatal music club</td>
+                            <td>Fatal Rock GIG</td>
+                            <td>Faraday, 3 a 5 minut, Švindl</td>
+                        </tr>
+                        <tr>
+                            <td>10.</td>
+                            <td>KC Zahrada</td>
+                            <td>Koncert ZUŠ Jižní Město</td>
+                            <td>Rockband</td>
+                        </tr>
+                        <tr>
+                            <td>11.</td>
+                            <td>Rock Café Praha</td>
+                            <td>finále Majáles band contestu</td>
+                            <td>The Hills, Salsa Band, Zelenej Sen</td>
+                        </tr>
+                        <tr>
+                            <td>12.</td>
+                            <td>Fatal music club</td>
+                            <td>Akce Cihla</td>
+                            <td>Arrogant Twins, The Shifty Grifts, Bad Taste</td>
+                        </tr>
+                        <tr>
+                            <td>13.</td>
+                            <td>Chapeau Rouge</td>
+                            <td>Scream For Fame</td>
+                            <td>w – Zelenej Sen, Vypuštěné Koupaliště</td>
+                        </tr>
+                        <tr>
+                            <td>14.</td>
+                            <td>Rock Café Praha</td>
+                            <td>United Islands of Prague</td>
+                            <td>The Drain, Snap Call, Light Sugar Dreaming</td>
+                        </tr>
+                        <tr>
+                            <td>15.</td>
+                            <td>Horní Planá</td>
+                            <td>HP Rock Fest</td>
+                            <td>WilhemFreddie(NL), X-Core, Black Velvet Suicide</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </section>
         <section id="gallery">
-
+            <div class="container">
+                <h1>Galerie</h1>
+            </div>
         </section>
         <section id="booking">
-
+            <div class="container">
+                <h1>Informace a soubory pro booking</h1>
+            </div>
         </section>
         <section id="contact">
-
+            <div class="container">
+                <h1>Kontakt</h1>
+                <h3>Napište nám!</h3>
+                <form action="BurningArrows.html" method="post">
+                    <label>Předmět dotazu<input type="text" name="predmet" placeholder="..."></label>
+                    <label>Předmět dotazu<input type="email" name="email" placeholder="@" required></label>
+                    <textarea name="email" placeholder="Text vaší zprávy..." required></textarea>
+                    <br>
+                    <button type="submit">Odeslat</button>
+                </form>
+            </div>
         </section>
     </main>
     <footer>
-        <p>&copy; Burning Arrows 2017</p>
+        <div class="container">
+            <p>Copyright &copy; Burning Arrows 2017</p>
+        </div>
     </footer>
 </body>
 </html>
