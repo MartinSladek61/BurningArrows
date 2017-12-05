@@ -11,29 +11,36 @@
 <body>
     <nav>
         <div class="container">
-            <div class="nav-name">
-                <a href=BurningArrows.html title="Burning Arrows">Burning Arrows</a>
-            </div>
-            <div class="nav-social">
-                    <a href="https://www.facebook.com/burningarrows/?fref=ts" class="fa fa-facebook" title="Facebook"></a>
-                    <a href="https://www.youtube.com/channel/UC5FMA85ruFl9zVFP-R6U9pA" class="fa fa-youtube" title="Youtube"></a>
-                    <a href="https://www.instagram.com/burning_arrows_band/" class="fa fa-instagram" title="Instagram"></a>
-            </div>
-            <div class="nav-nav">
-                <a href="#about">O Nás</a>
-                <a href="#concerts">Koncerty</a>
-                <a href="#gallery">Galerie</a>
-                <a href="#booking">Booking</a>
-                <a href="#contact">Kontakt</a>
-            </div>
-            <p>TODO /*udělat elementy vedle sebe do řádky*/</p>
+            <table id="nav-table">
+                <tr>
+                    <td>
+                        <div class="nav-name">
+                            <a href=BurningArrows.html title="Burning Arrows">Burning Arrows</a>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="nav-social">
+                                <a href="https://www.facebook.com/burningarrows/?fref=ts" class="fa fa-facebook" title="Facebook"></a>
+                                <a href="https://www.youtube.com/channel/UC5FMA85ruFl9zVFP-R6U9pA" class="fa fa-youtube" title="Youtube"></a>
+                                <a href="https://www.instagram.com/burning_arrows_band/" class="fa fa-instagram" title="Instagram"></a>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="nav-nav">
+                            <a href="#about">O Nás</a>
+                            <a href="#concerts">Koncerty</a>
+                            <a href="#gallery">Galerie</a>
+                            <a href="#booking">Booking</a>
+                            <a href="#contact">Kontakt</a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
         </div>
     </nav>
     <header>
         <div class="background-pic">
             <div class="container">
-                <img src="img2.jpg" class="under-pic"/>
-                <p>TODO /*obrázek*/</p>
             </div>
         </div>
     </header>
@@ -60,10 +67,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td></td>
-                            <td></td>
-                            <td>2016</td>
-                            <td></td>
+                            <td><h3>2016</h3></td>
                         </tr>
                         <tr>
                             <td>1.</td>
@@ -102,10 +106,7 @@
                             <td>No Thing, Cross Station, Psí Kšíry</td>
                         </tr>
                         <tr>
-                            <td></td>
-                            <td></td>
-                            <td>2017</td>
-                            <td></td>
+                            <td><h3>2017</h3></td>
                         </tr>
                         <tr>
                             <td>7.</td>
@@ -147,7 +148,7 @@
                             <td>13.</td>
                             <td>Chapeau Rouge</td>
                             <td>Scream For Fame</td>
-                            <td>w – Zelenej Sen, Vypuštěné Koupaliště</td>
+                            <td>Zelenej Sen, Vypuštěné Koupaliště</td>
                         </tr>
                         <tr>
                             <td>14.</td>
@@ -172,16 +173,19 @@
         </section>
         <section id="booking">
             <div class="container">
-                <h1>Informace a soubory pro booking</h1>
+                <h1>Booking</h1>
             </div>
         </section>
         <section id="contact">
             <div class="container">
                 <h1>Kontakt</h1>
+                <p>TODO! kontakty</p>
                 <h3>Napište nám!</h3>
                 <form action="BurningArrows.html" method="post">
                     <label>Předmět dotazu<input type="text" name="predmet" placeholder="..."></label>
-                    <label>Předmět dotazu<input type="email" name="email" placeholder="@" required></label>
+                    <br>
+                    <label>Váš e-mail<input type="email" name="email" placeholder="@" required></label>
+                    <br>
                     <textarea name="email" placeholder="Text vaší zprávy..." required></textarea>
                     <br>
                     <button type="submit">Odeslat</button>

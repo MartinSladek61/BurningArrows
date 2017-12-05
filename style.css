@@ -9,9 +9,14 @@ section:nth-child(odd) {
 }
 section{
     text-align: center;
+    font-size: 16px;
 }
 #concerts-table{
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#concerts-table td{
+    padding: 0.5rem 1.5rem;
 }
 .background-pic .under-pic{
     background-position: center ;
@@ -23,6 +28,8 @@ section{
     flex-direction: column;
     justify-content: center;
     padding: 0 auto;
+    background-image: url("img2.jpg");
+    background-size: cover;
 }
 nav {
     background-color: rgba(77,77,77,0.9);
@@ -41,14 +48,18 @@ nav {
     color: #cc0000;
 }
 .nav-social a{
-    padding: 20px;
-    font-size: 30px;
+    padding: 10px;
+    font-size: 25px;
     width: 30px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;
     color: #cc0000;
+}
+.nav-nav{
+    padding: 8px;
+    margin: 10px;
 }
 .nav-nav a {
     font-size: 18px;
@@ -60,14 +71,17 @@ nav a:hover,
 nav a:focus {
     color: white;
 }
+#nav-table{
+    padding: 0px 100px;
+}
 
 
 form input,
 form textarea {
-    margin: 0.5rem 0;
-    padding: 0.5rem;
+    margin: auto;
+    padding: 10px;
     border-radius: 0.3rem;
-    border: 0.15rem solid rgba(0, 0, 0, 0.5);
+    border: 0.1rem solid rgba(0, 0, 0, 0.7);
     background-color: #f2f2f2;
     color: black;
     display: block;
@@ -85,12 +99,13 @@ form button:hover {
     background-color: #ccc;
 }
 footer {
-    padding: 5rem 5rem;
+    padding: 4rem 4rem;
     background-color: rgb(77, 77, 77);
     color: white;
     text-align: center;
 }
 i {
+    margin-top: 10px;
     border: solid white;
     border-width: 0 5px 5px 0;
     display: inline-block;
@@ -101,9 +116,12 @@ i {
     -webkit-transform: rotate(-135deg);
     width: 2.7rem;
     height: 2.7rem;
+    vertical-align: 30px;
 }
-.up i:hover{
-    color: #cc0000;
+.arrow-up i:hover{
+    border-color:  #cc0000;
+    -webkit-animation: mymove 1s infinite;
+    animation: mymove 1s infinite;
 }
 .footer-social a{
     border-radius: 50%;
@@ -121,4 +139,8 @@ i {
 }
 #copyright-text a:hover{
     color: #cc0000;
+}
+
+@-webkit-keyframes mymove {
+    50% {vertical-align: 15px;}
 }
