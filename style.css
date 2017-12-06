@@ -18,24 +18,17 @@ section{
 #concerts-table td{
     padding: 0.5rem 1.5rem;
 }
-.background-pic .under-pic{
-    background-position: center ;
-    background-size: cover;
-}
 .background-pic .container {
-    height: 40rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 auto;
-    background-image: url("img2.jpg");
+    height: 15rem;
+    background-image: url("bgwithlogov2.png");
     background-size: cover;
 }
 nav {
-    background-color: rgba(77,77,77,0.9);
+    background-color: rgba(0,0,0,0.85);
     top: 0;
     position: sticky;
     display: flex;
+    z-index: 1;
 }
 .nav-name a{
     padding: 20px;
@@ -72,7 +65,11 @@ nav a:focus {
     color: white;
 }
 #nav-table{
-    padding: 0px 100px;
+    padding: 0 80px;
+}
+#about{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -88,8 +85,8 @@ form textarea {
     width: 75%;
 }
 form button {
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #f2f2f2;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #cc0000;
     border: none;
     border-radius: 0.5rem;
     padding: 0.6rem 0.8rem;
@@ -100,13 +97,13 @@ form button:hover {
 }
 footer {
     padding: 4rem 4rem;
-    background-color: rgb(77, 77, 77);
-    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #cc0000;
     text-align: center;
 }
-i {
+.arrow-up i {
     margin-top: 10px;
-    border: solid white;
+    border: solid #cc0000;
     border-width: 0 5px 5px 0;
     display: inline-block;
     padding: 3px;
@@ -119,28 +116,46 @@ i {
     vertical-align: 30px;
 }
 .arrow-up i:hover{
-    border-color:  #cc0000;
+    border-color:  white;
     -webkit-animation: mymove 1s infinite;
     animation: mymove 1s infinite;
 }
 .footer-social a{
     border-radius: 50%;
-    color: white;
+    color: #cc0000;
     text-decoration: none;
     margin: 0.4rem 0.5rem;
     font-size: 25px;
 }
 .footer-social a:hover{
-    color: #cc0000;
+    color: white;
 }
 #copyright-text a{
     text-decoration: none;
-    color: white;
-}
-#copyright-text a:hover{
     color: #cc0000;
 }
-
+#copyright-text a:hover{
+    color: white;
+}
 @-webkit-keyframes mymove {
     50% {vertical-align: 15px;}
+}
+
+/*// Medium screens*/
+@media only screen and (min-width: 40.063em) {
+    .background-pic .container {
+        height: 30rem;
+    }
+}
+/*// Large screens*/
+@media only screen and (min-width: 64.063em) {
+    .background-pic .container {
+        height: 40rem;
+    }
+}
+/*// XLarge screens*/
+@media only screen and (min-width: 90.063em) {
+    .background-pic .container {
+        height: 50rem;
+    }
 }
