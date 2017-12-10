@@ -1,0 +1,8 @@
+1. Navigace - prizpusobit zvetsovani okna a v media queries
+
+2. Galerie
+
+3. Alternativni textace
+
+4. Kontakty
+

@@ -63,6 +63,7 @@ nav {
 nav a:hover,
 nav a:focus {
     color: white;
+    transition: all 0.5s ease;
 }
 #nav-table{
     padding: 0 80px;
@@ -94,6 +95,7 @@ form button {
 form button:hover {
     cursor: pointer;
     background-color: #ccc;
+    transition: all 0.5s ease;
 }
 footer {
     padding: 4rem 4rem;
@@ -119,6 +121,7 @@ footer {
     border-color:  white;
     -webkit-animation: mymove 1s infinite;
     animation: mymove 1s infinite;
+    transition: all 0.5s ease;
 }
 .footer-social a{
     border-radius: 50%;
@@ -129,6 +132,7 @@ footer {
 }
 .footer-social a:hover{
     color: white;
+    transition: all 0.5s ease;
 }
 #copyright-text a{
     text-decoration: none;
@@ -136,6 +140,7 @@ footer {
 }
 #copyright-text a:hover{
     color: white;
+    transition: all 0.5s ease;
 }
 @-webkit-keyframes mymove {
     50% {vertical-align: 15px;}
