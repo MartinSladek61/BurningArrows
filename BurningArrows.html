@@ -10,32 +10,22 @@
 </head>
 <body>
     <nav>
-        <div class="container">
-            <table id="nav-table">
-                <tr>
-                    <td>
-                        <div class="nav-name">
-                            <a href=BurningArrows.html title="Burning Arrows">Burning Arrows</a>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="nav-social">
-                                <a href="https://www.facebook.com/burningarrows/?fref=ts" class="fa fa-facebook" title="Facebook"></a>
-                                <a href="https://www.youtube.com/channel/UC5FMA85ruFl9zVFP-R6U9pA" class="fa fa-youtube" title="Youtube"></a>
-                                <a href="https://www.instagram.com/burning_arrows_band/" class="fa fa-instagram" title="Instagram"></a>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="nav-nav">
-                            <a href="#about">O Nás</a>
-                            <a href="#concerts">Koncerty</a>
-                            <a href="#gallery">Galerie</a>
-                            <a href="#booking">Booking</a>
-                            <a href="#contact">Kontakt</a>
-                        </div>
-                    </td>
-                </tr>
-            </table>
+        <div class="flex-container">                         
+            <div class="nav-name">
+                <a href=BurningArrows.html title="Burning Arrows">Burning Arrows</a>
+            </div>               
+            <div class="nav-social">
+                <a href="https://www.facebook.com/burningarrows/?fref=ts" class="fa fa-facebook" title="Facebook"></a>
+                <a href="https://www.youtube.com/channel/UC5FMA85ruFl9zVFP-R6U9pA" class="fa fa-youtube" title="Youtube"></a>
+                <a href="https://www.instagram.com/burning_arrows_band/" class="fa fa-instagram" title="Instagram"></a>
+            </div>
+            <div class="nav-nav">
+                <a href="#about">O Nás</a>
+                <a href="#concerts">Koncerty</a>
+                <a href="#gallery">Galerie</a>
+                <a href="#booking">Booking</a>
+                <a href="#contact">Kontakt</a>
+            </div>     
         </div>
     </nav>
     <header>
@@ -59,17 +49,17 @@
                 <p>Přijímáme nabídky hraní</p>
                 <h1>Odehrané koncerty</h1>
                 <table id="concerts-table">
-                    <thead>
+                    <thead class="thead">
                         <tr>
-                            <th>Pořadí</th>
-                            <th>Místo</th>
-                            <th>Událost</th>
-                            <th>Další interpreti</th>
+                            <th><h2>Pořadí</h2></th>
+                            <th><h2>Místo</h2></th>
+                            <th><h2>Událost</h2></th>
+                            <th><h2>Další interpreti</h2></th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody class="tbody">
                         <tr>
-                            <td><h3>2016</h3></td>
+                            <td><h2>2016</h2></td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -111,7 +101,7 @@
                             <td>No Thing, Cross Station, Psí Kšíry</td>
                         </tr>
                         <tr>
-                            <td><h3>2017</h3></td>
+                            <td><h2>2017</h2></td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -177,21 +167,35 @@
         <section id="gallery">
             <div class="container">
                 <h1>Galerie</h1>
+                
             </div>
         </section>
         <section id="booking">
             <div class="container">
                 <h1>Booking</h1>
+                <p>Dokumenty pro booking</p>
+                <figure>
+                    <a href="Burning_Arrows_Stage_Plan_2017.pdf" target="blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+                    <figcaption>Stageplan</figcaption>
+                </figure>
+                <figure>
+                    <a href="photo01.jpg"><img src="photo01.jpg" class="photo-preview"></a>
+                    <figcaption>Promo foto 1</figcaption>
+                </figure>
+                <figure>
+                    <a href="photo03.jpg"><img src="photo03.jpg" class="photo-preview"></a>
+                    <figcaption>Promo foto 2</figcaption>
+                </figure>
             </div>
         </section>
         <section id="contact">
             <div class="container">
                 <h1>Kontakt</h1>
-                <i class="fa fa-phone" aria-hidden="true"> +420 721 428 245</i>
+                <i class="fa fa-phone" aria-hidden="true"></i><p>+420 721 428 245</p>
+                <br/>                
+                <i class="fa fa-envelope" aria-hidden="true"></i><p>burningarrows@gmail.com</p>
                 <br/>
-                <br/>
-                <i class="fa fa-envelope" aria-hidden="true"> burningarrows@gmail.com</i>
-                <h3>Napište nám!</h3>
+                <h2>Napište nám!</h2>
                 <form action="BurningArrows.html" method="post">
                     <label>Předmět dotazu<input type="text" name="predmet" placeholder="..."></label>
                     <br>
