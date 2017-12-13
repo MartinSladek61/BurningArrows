@@ -82,8 +82,33 @@ nav a:focus {
     background-color: #c1c1c1;
 }
 
+#gallery img{
+    width: 350px;
+    height: 215px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+}
+#gallery-pics{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#gallery-pics img:hover{
+  transform: scale(1.5,1.5);
+  transition: .4s transform;
+}
 
-#booking i,
+#download{
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#download a{
+    text-decoration: none;
+    color: black;
+}
+#booking i{
+    font-size: 180px;
+}
 #contact i{
     font-size: 36px;
 }
@@ -91,6 +116,7 @@ nav a:focus {
     width: 300px;
     height: 180px;
 }
+
 form input,
 form textarea {
     margin: auto;
