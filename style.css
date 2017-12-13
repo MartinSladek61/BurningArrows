@@ -74,12 +74,16 @@ nav a:focus {
 #concerts-table{
     margin-left: auto;
     margin-right: auto;
+    border-collapse: collapse;
 }
 #concerts-table td{
     padding: 0.5rem 1.5rem;
 }
 .tbody tr:nth-child(odd){
     background-color: #c1c1c1;
+}
+#table-slider{
+    overflow-x:auto;
 }
 
 #gallery img{
